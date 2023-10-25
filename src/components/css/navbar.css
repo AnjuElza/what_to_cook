@@ -1,0 +1,13 @@
+.nav{
+    color: orangered;
+    background-color: lemonchiffon;
+    margin: 0;
+  }
+  
+  .nav p {
+    margin: 0; /* Set margin to 0 for the <p> element within .nav */
+    padding: 10px 20px 10px 20px;
+    font-size: x-large;
+    font-weight: 700;
+    font-style: italic;
+  }

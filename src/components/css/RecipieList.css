@@ -1,0 +1,22 @@
+.recipe-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .recipe-list .card {
+    /* flex: 0 0 calc(33.33% - 10px); Adjust the percentage as needed for your layout */
+    margin-bottom: 10px; /* Add spacing between cards */
+    border: 1px solid orangered; /* Add borders to the cards */
+    padding: 10px;
+    text-align: center; 
+    align-items: center;
+  }
+  .recipe-list .card img {
+    width: 100%; /* Ensure the image takes the full width of the card */
+    height: auto; /* Maintain the image's aspect ratio */
+  }
+  .recipe-list .card Button{
+    background-color: orangered;
+
+  }
+  
