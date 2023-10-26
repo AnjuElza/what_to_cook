@@ -20,12 +20,19 @@ export function AppNavbar() {
     //   </Container>
 
     // </Navbar>
-     <div className="nav">
-        <p>What To Cook</p>
-        <Button variant="link"
-      color="inherit"
-      onClick={() => navigate("/")}
-      >HOME</Button>
-      </div> 
+    <div className="nav">
+    <p>What To Cook</p>
+    <div className="nav-buttons">
+      <Button
+        variant="link"
+        color="inherit"
+        onClick={() => navigate("/")}
+      >
+        HOME
+      </Button>
+    </div>
+  </div>
+  
+    
   );
 }

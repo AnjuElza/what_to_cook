@@ -2,6 +2,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import {AppNavbar} from "./AppNavbar"; 
 import "./css/RecipieList.css"; 
 // export function RecipieList() {
 //     const { mainIngredient } = useParams(); // Extract ingredient from URL
@@ -73,6 +74,7 @@ export function RecipieList() {
 
   return (
     <div>
+      <AppNavbar />
       <h1>Recipe List for {mainIngredient}</h1>
       {error ? (
         <div>

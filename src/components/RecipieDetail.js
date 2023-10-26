@@ -1,8 +1,9 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Card from 'react-bootstrap/Card';
-
+import {AppNavbar} from "./AppNavbar"; 
 import "./css/RecipieDetail.css"; 
+
 export function RecipieDetail() {
     const {idMeal } = useParams(); // Extract ingredient from URL
     const navigate = useNavigate();
@@ -29,7 +30,7 @@ export function RecipieDetail() {
   
     return (
       <div>
-       
+       <AppNavbar />
         <div className="recipe-detail">
         <Card >
         <Card.Img variant="top" src={recipeDetails.strMealThumb} style={{  height:'20rem'}}/>
